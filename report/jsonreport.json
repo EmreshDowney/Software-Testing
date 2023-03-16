@@ -1,0 +1,129 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Given Launch The Browser",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7830586600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.pre1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 357200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.pre3()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "To validate in Email filed With Data Table",
+        "description": "",
+        "id": "to-validate-amazon-singin;to-validate-in-email-filed-with-data-table",
+        "after": [
+          {
+            "result": {
+              "duration": 568071700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.post()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 79590449500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To launch url of Amazon",
+            "match": {
+              "location": "AmazonSing.to_launch_url_of_Amazon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9935404900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click SingIn button",
+            "match": {
+              "location": "AmazonSing.click_SingIn_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 516857800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Pass mails in Email Filed",
+            "match": {
+              "location": "AmazonSing.pass_mails_in_Email_Filed(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "ps1",
+                  "ps2"
+                ]
+              },
+              {
+                "cells": [
+                  "vijay",
+                  "ajith"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1729106700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click Continue",
+            "match": {
+              "location": "AmazonSing.click_Continue()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ama"
+          }
+        ]
+      }
+    ],
+    "name": "To Validate Amazon Singin",
+    "description": "",
+    "id": "to-validate-amazon-singin",
+    "keyword": "Feature",
+    "uri": "src/test/resources/fb.feature",
+    "tags": []
+  }
+]

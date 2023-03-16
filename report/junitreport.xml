@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="100.185468">
+    <testcase classname="To Validate Amazon Singin" name="To validate in Email filed With Data Table" time="100.185468">
+        <system-out><![CDATA[When To launch url of Amazon................................................passed
+And Click SingIn button.....................................................passed
+And Pass mails in Email Filed...............................................passed
+And Click Continue..........................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
